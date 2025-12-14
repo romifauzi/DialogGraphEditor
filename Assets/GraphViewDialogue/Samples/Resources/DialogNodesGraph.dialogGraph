@@ -64,10 +64,10 @@ MonoBehaviour:
         m_LocalSubgraphs: []
         m_LastKnownBounds:
           serializedVersion: 2
-          x: -478
-          y: 258
-          width: 2272
-          height: 491
+          x: -344
+          y: 315
+          width: 2140
+          height: 434
         m_GraphElementMetaData:
         - m_Guid:
             m_Value0: 8973875807616816139
@@ -291,7 +291,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: 0bd4785b809c897c5cfdfb0f47b05b92
         m_Version: 2
-        m_Position: {x: -477.61398, y: 257.59708}
+        m_Position: {x: -344.295, y: 341.73257}
         m_Title: 
         m_Tooltip: 
         m_NodePreviewModel:
@@ -328,7 +328,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: d3e0ba84a612b0295c2b21a37c2ca7b5
         m_Version: 2
-        m_Position: {x: -282.38065, y: 289.38235}
+        m_Position: {x: -178.20586, y: 339.00323}
         m_Title: 
         m_Tooltip: 
         m_NodePreviewModel:
@@ -450,7 +450,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: 22e3930e9d8c3c9cd2b60456c8a8f0db
         m_Version: 2
-        m_Position: {x: -456.11954, y: 388.81174}
+        m_Position: {x: -343.17508, y: 525.1296}
         m_Title: Jim
         m_Tooltip: 
         m_NodePreviewModel:
@@ -523,7 +523,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: 9900563825e4a100d64dd6e9e85715fd
         m_Version: 2
-        m_Position: {x: 627.82153, y: 407.71555}
+        m_Position: {x: 605.3353, y: 372.5308}
         m_Title: 
         m_Tooltip: 
         m_NodePreviewModel:
@@ -617,7 +617,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: 00fe5093e54a4e60a37422ee1ae2ff86
         m_Version: 2
-        m_Position: {x: 992, y: 690}
+        m_Position: {x: 1059.4586, y: 714.0924}
         m_Title: Jim
         m_Tooltip: 
         m_NodePreviewModel:
@@ -686,7 +686,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: 410952680acba74ca38afeecb6aca31c
         m_Version: 2
-        m_Position: {x: 1560, y: 272}
+        m_Position: {x: 1561.6062, y: 314.60617}
         m_Title: 
         m_Tooltip: 
         m_NodePreviewModel:
@@ -777,7 +777,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: b265e71344ff04aa4ae134898e174c8b
         m_Version: 2
-        m_Position: {x: 645.64087, y: 559.9645}
+        m_Position: {x: 292.28598, y: 579.2384}
         m_Title: 
         m_Tooltip: 
         m_NodePreviewModel:
@@ -864,7 +864,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: 0f1592255a809ae7f17d3227a6f5f09c
         m_Version: 2
-        m_Position: {x: 455.11176, y: 681.109}
+        m_Position: {x: 164.09561, y: 709.1815}
         m_Title: Jim
         m_Tooltip: 
         m_NodePreviewModel:
@@ -933,7 +933,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: de82a370a51786e7570437ae656a2015
         m_Version: 2
-        m_Position: {x: 238.84497, y: 303.0063}
+        m_Position: {x: 290.2388, y: 339.49252}
         m_Title: 
         m_Tooltip: 
         m_NodePreviewModel:
@@ -1052,7 +1052,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: 3e61808f4bc0efe2c74722953cfd455f
         m_Version: 2
-        m_Position: {x: 1395, y: 450}
+        m_Position: {x: 1439.9724, y: 496.57858}
         m_Title: Jim
         m_Tooltip: 
         m_NodePreviewModel:
@@ -1121,7 +1121,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: cda67461e99ffae84de7ee1683130e46
         m_Version: 2
-        m_Position: {x: 1087, y: 310}
+        m_Position: {x: 1032.9661, y: 372.5786}
         m_Title: 
         m_Tooltip: 
         m_NodePreviewModel:
