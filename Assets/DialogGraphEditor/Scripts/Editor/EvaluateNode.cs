@@ -1,8 +1,10 @@
+using System;
 using DialogGraph.Runtime;
 using Unity.GraphToolkit.Editor;
 
 namespace DialogGraph.Editor
 {
+    [Serializable]
     internal class EvaluateNode : BaseNode
     {
         public const string EVALUATOR_PORT_NAME = "EVALUATOR";

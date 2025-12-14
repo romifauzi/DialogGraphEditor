@@ -17,7 +17,7 @@ namespace DialogGraph.Examples
         private string _cachedMessage;
         private CancellationTokenSource _cancelTyping;
 
-        protected async override void Start()
+        protected override void Start()
         {
             panelCanvasGroup.alpha = 0f;
             _ = base.ShowPanel(false);

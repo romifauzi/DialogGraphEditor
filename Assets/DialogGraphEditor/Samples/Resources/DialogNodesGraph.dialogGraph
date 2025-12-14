@@ -264,7 +264,7 @@ MonoBehaviour:
         m_EntryPoint:
           rid: 767986042845790294
         m_Graph:
-          rid: 767986042845790293
+          rid: 767986101031797005
     - rid: 767986042845790292
       type: {class: SectionModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -278,9 +278,6 @@ MonoBehaviour:
         m_Items:
         - rid: 767986056059420761
         m_Title: 
-    - rid: 767986042845790293
-      type: {class: DialogGraphView, ns: DialogGraph.Editor, asm: Assembly-CSharp-Editor}
-      data: 
     - rid: 767986042845790294
       type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
       data:
@@ -316,7 +313,7 @@ MonoBehaviour:
         m_Node:
           rid: 767986042845790295
     - rid: 767986042845790295
-      type: {class: StartNode, ns: DialogGraph.Editor, asm: Assembly-CSharp-Editor}
+      type: {class: StartNode, ns: DialogGraph.Editor, asm: DialogGraphEditor}
       data: 
     - rid: 767986042845790296
       type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
@@ -363,7 +360,7 @@ MonoBehaviour:
         m_Node:
           rid: 767986042845790297
     - rid: 767986042845790297
-      type: {class: DialogNode, ns: DialogGraph.Editor, asm: Assembly-CSharp-Editor}
+      type: {class: DialogNode, ns: DialogGraph.Editor, asm: DialogGraphEditor}
       data: 
     - rid: 767986056059420756
       type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
@@ -533,7 +530,7 @@ MonoBehaviour:
           m_KeyList:
           - EVALUATOR
           m_ValueList:
-          - rid: 767986063080161345
+          - rid: 767986101031797006
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -550,7 +547,7 @@ MonoBehaviour:
         m_Node:
           rid: 767986056059420786
     - rid: 767986056059420786
-      type: {class: EvaluateNode, ns: DialogGraph.Editor, asm: Assembly-CSharp-Editor}
+      type: {class: EvaluateNode, ns: DialogGraph.Editor, asm: DialogGraphEditor}
       data: 
     - rid: 767986056059420801
       type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
@@ -605,7 +602,7 @@ MonoBehaviour:
       data:
         m_Value: 'Are you messing with me? '
     - rid: 767986056059420806
-      type: {class: DialogNode, ns: DialogGraph.Editor, asm: Assembly-CSharp-Editor}
+      type: {class: DialogNode, ns: DialogGraph.Editor, asm: DialogGraphEditor}
       data: 
     - rid: 767986056059420809
       type: {class: VariableNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
@@ -729,12 +726,8 @@ MonoBehaviour:
       data:
         m_Value: Thanks a lot!
     - rid: 767986056059420816
-      type: {class: DialogNode, ns: DialogGraph.Editor, asm: Assembly-CSharp-Editor}
+      type: {class: DialogNode, ns: DialogGraph.Editor, asm: DialogGraphEditor}
       data: 
-    - rid: 767986063080161345
-      type: {class: 'Constant`1[[DialogGraph.Runtime.Evaluator, Assembly-CSharp]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 11400000, guid: e2c99b7af39124ffea72a892d00ce6e8, type: 2}
     - rid: 767986063080161366
       type: {class: WireModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -852,7 +845,7 @@ MonoBehaviour:
       data:
         m_Value: I was hoping you'd bring one
     - rid: 767986063080161395
-      type: {class: DialogNode, ns: DialogGraph.Editor, asm: Assembly-CSharp-Editor}
+      type: {class: DialogNode, ns: DialogGraph.Editor, asm: DialogGraphEditor}
       data: 
     - rid: 767986063080161396
       type: {class: VariableNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
@@ -1008,7 +1001,7 @@ MonoBehaviour:
       data:
         m_Value: You decided to give the water...
     - rid: 767986078855987269
-      type: {class: DialogNode, ns: DialogGraph.Editor, asm: Assembly-CSharp-Editor}
+      type: {class: DialogNode, ns: DialogGraph.Editor, asm: DialogGraphEditor}
       data: 
     - rid: 767986078855987270
       type: {class: WireModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
@@ -1148,11 +1141,11 @@ MonoBehaviour:
         m_Node:
           rid: 767986101031796966
     - rid: 767986101031796965
-      type: {class: 'Constant`1[[DialogGraph.Runtime.Evaluator, Assembly-CSharp]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      type: {class: 'Constant`1[[DialogGraph.Runtime.Evaluator, DialogGraphRuntime]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: {fileID: 11400000, guid: ac4ebb95c4bb74f3e9ff891ed4da66cb, type: 2}
     - rid: 767986101031796966
-      type: {class: EvaluateNode, ns: DialogGraph.Editor, asm: Assembly-CSharp-Editor}
+      type: {class: EvaluateNode, ns: DialogGraph.Editor, asm: DialogGraphEditor}
       data: 
     - rid: 767986101031796967
       type: {class: WireModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
@@ -1218,3 +1211,10 @@ MonoBehaviour:
           m_PortDirection: 1
           m_PortOrientation: 0
           m_Title: 
+    - rid: 767986101031797005
+      type: {class: DialogGraphView, ns: DialogGraph.Editor, asm: DialogGraphEditor}
+      data: 
+    - rid: 767986101031797006
+      type: {class: 'Constant`1[[DialogGraph.Runtime.Evaluator, DialogGraphRuntime]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 11400000, guid: e2c99b7af39124ffea72a892d00ce6e8, type: 2}
