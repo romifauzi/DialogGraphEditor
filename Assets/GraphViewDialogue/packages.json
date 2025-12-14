@@ -1,0 +1,31 @@
+{
+  "name": "com.romifauzi.dialoggrapheditor",
+  "version": "1.0.0",
+  "displayName": "Romi's Dialogue Graph Editor",
+  "description": "A Node based Dialogue Editor that uses Unity's Graph Toolkit, allows branching, custom condition evaluation, and custom event triggering",
+  "unity": "6000.2",
+  "dependencies": {
+    "com.unity.graphtoolkit": "0.4.0-exp.2"
+ },
+  "keywords": [
+    "dialog manager",
+    "node based dialog",
+    "graph toolkit"
+  ],
+  "author": {
+    "name": "Romi Fauzi",
+    "email": "romi.fauzi@gmail.com",
+    "url": "https://www.milkishgames.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romifauzi/DialogGraphEditor.git"
+  },
+  "samples": [
+        {
+            "displayName": "Dialog Graph Editor Usage Example",
+            "description": "Contains sample scripts, prefab and scene on how to use Dialog Graph Editor",
+            "path": "Samples"
+        }
+    ]
+}
