@@ -25,7 +25,7 @@
         {
             "displayName": "Dialog Graph Editor Usage Example",
             "description": "Contains sample scripts, prefab and scene on how to use Dialog Graph Editor",
-            "path": "Samples"
+            "path": "Samples~"
         }
     ]
 }
