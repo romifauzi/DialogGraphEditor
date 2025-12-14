@@ -24,5 +24,6 @@ A Unity package that allows you to create branching narrative with visual nodes 
 - Refer to `EventTriggerer.cs` and `EventReceiver.cs` for triggering event from the Dialog graph and receiving event to a gameObject.
 ---
 
-Enjoy using **Dialog Graph Editor** to create branching narrative in your Unity projects and please report any bug, Thanks!
+This add-on is heavily inspired from https://www.youtube.com/watch?v=Spa8au6cOmo by **Sasquatch B Studios**, with additional modification to do custom condition evaluation and event triggering.
 
+Enjoy using **Dialog Graph Editor** to create branching narrative in your Unity projects and please report any bug, Thanks!
